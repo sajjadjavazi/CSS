@@ -1,0 +1,31 @@
+.div-text.part {
+    color: red;
+}
+.p-text.p1 {
+    color: red;
+    background-color: lightgreen;
+}
+.p-text {
+    background-color: aqua;
+}
+a[href*="roocket"] {
+    color: red;
+    background-color: black;
+}
+a[href*="time"] {
+    color: greenyellow;
+    background-color: black;
+}
+a[href$="com"] {
+    color:salmon;
+    background-color:cornflowerblue;
+}
+li.href span {
+    background-color: blue;
+}
+li ~ span {
+    background-color: blue;
+}
+li:hover {
+   background-color: deeppink; 
+}
